@@ -20,5 +20,5 @@ public abstract class Calc {
         return num2;
     }
 
-    public abstract int operate;
+    public abstract int operate();
 }
