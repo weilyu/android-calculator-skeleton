@@ -33,8 +33,7 @@ public class Logic
     public void process(int argumentOne,
                         int argumentTwo,
                         int operation) {
-        // TODO -- start your code here
-        Calc calc = null;
+        Calc calc;
         if (operation == ADD) {
             calc = new Add(argumentOne, argumentTwo);
             mOut.print(String.valueOf(calc.operate()));
